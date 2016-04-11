@@ -6,10 +6,10 @@
 #include <windows.h>
 #include <iostream>
 
-class ofxMouseControl
+class ofxWinMouseControl
 {
     public:
-        ofxMouseControl();
+        ofxWinMouseControl();
         void moveMouse(int x,int y);
         void leftMouseDown();
         void leftMouseUp();
